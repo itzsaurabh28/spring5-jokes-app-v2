@@ -13,7 +13,13 @@ public class JokeServiceImpl implements JokeService {
 
 	public JokeServiceImpl() {
 		
-		this.chuckNorrisQuotes = new ChuckNorrisQuotes();  //hard coding here--not good practice--need to change later
+		this.chuckNorrisQuotes = new ChuckNorrisQuotes();  
+	
+		/*
+		 * hard coding here as not learned how to manage spring managed component on external classes--
+           not good practice--need to change later
+		 */
+				
 	}
 
 
